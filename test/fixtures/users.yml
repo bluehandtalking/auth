@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email: bome@here.net 
+  password: spooky
+  password_confirmation: spooky
+  password_digest: dfdfww
+
+two:
+  email: crabtree@home.net
+  password: never
+  password_confirmation: never
+  password_digest: voeksd

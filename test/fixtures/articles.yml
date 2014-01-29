@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  author: Jones
+  title: Bones
+  content: to good for words
+
+two:
+  author: Perry
+  title: From here to there
+  content: Hope springs forever
