@@ -18,5 +18,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 group :test do
   gem 'minitest-spec-rails', require: false
   gem 'minitest-rails-capybara'
+  gem 'capybara-webkit'
+  gem 'turn'
 end
 

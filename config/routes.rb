@@ -7,7 +7,7 @@ Auth::Application.routes.draw do
   resources :articles
   resources :users
   resources :sessions
-  root to: "articles#index"
+  root :to => "articles#index"
 
 
   # The priority is based upon order of creation:

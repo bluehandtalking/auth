@@ -1,8 +1,14 @@
 ENV["RAILS_ENV"] = "test"
-require File.expand_path('../../config/environment', __FILE__)
-require 'rails/test_help'
-require 'minitest-rails'
-require 'minitest-rails-capybara'
+require File.expand_path("../../config/environment", __FILE__)
+require "rails/test_help"
+require "minitest/rails"
+require "minitest/rails/capybara"
+require "capybara-webkit"
+require "turn/autorun"
+
+
+Capybara.default_driver = :webkit
+
 
 class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.(yml|csv) for all tests in alphabetical order.
